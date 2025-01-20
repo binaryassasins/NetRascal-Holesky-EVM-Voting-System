@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
-// import VotingABI from "../../../artifacts/contracts/Vote.sol/Voting.json";
-import VotingABI from "../config/VotingABI.json";
+import VotingABI from "../../../artifacts/contracts/Vote.sol/Voting.json";
+// import VotingABI from "../config/VotingABI.json";
 import { useNavigate } from "react-router-dom";
 import { BrowserProvider, Interface } from "ethers";
 import logo from "../assets/NetRascal.svg";

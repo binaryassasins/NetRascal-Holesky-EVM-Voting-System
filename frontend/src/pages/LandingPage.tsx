@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ethers } from 'ethers';
 import { AnimatePresence, motion } from 'framer-motion';
-// import VotingABI from '../../../artifacts/contracts/Vote.sol/Voting.json';
-import VotingABI from "../config/VotingABI.json";
+import VotingABI from '../../../artifacts/contracts/Vote.sol/Voting.json';
+// import VotingABI from "../config/VotingABI.json";
 import logo from '../assets/NetRascal.svg';
 import metamasklogo from '../assets/MetaMask_Fox.svg';
 import { FaVoteYea } from 'react-icons/fa'; // Importing FaVoteYea icon from react-icons

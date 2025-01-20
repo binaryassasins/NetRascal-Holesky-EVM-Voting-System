@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { ethers } from 'ethers';
-// import VotingABI from "../../../artifacts/contracts/Vote.sol/Voting.json";
-import VotingABI from "../config/VotingABI.json";
+import VotingABI from "../../../artifacts/contracts/Vote.sol/Voting.json";
+// import VotingABI from "../config/VotingABI.json";
 import { BrowserProvider, Interface } from "ethers";
 import logo from '../assets/NetRascal.svg';
 import { motion } from 'framer-motion';
